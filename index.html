@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Wagebucket</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Wagebucket</h1>
+    <div class="section" id="wage-entry">
+      <p>How much is your time worth to you?</p>
+      <p>Enter your wage below, and start counting those pennies.</p>
+      <div id="wage-entry-form">
+        <label for="input-wage-amount">$</label>
+        <input type="number" name="wage-amount" id="input-wage-amount" min="0" step="0.01" size="7">
+        /
+        <select name="wage-type" id="select-wage-type">
+          <option value="hour" selected="selected">hour</option>
+          <option value="year">year</option>
+        </select>
+      </div>
+      <button id="button-set-wage">Start counting</button>
+    </div>
+    <div class="section" id="wage-counter">
+    </div>
+    <script src="script.js" type="text/javascript"></script>
+  </body>
+</html>

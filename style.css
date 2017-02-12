@@ -1,0 +1,49 @@
+body {
+    font-family: Sans-Serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    background-color: #FAFAFA;
+}
+
+h1 {
+    margin: 0 auto;
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+input, select, button {
+    font-size: 1.2em;
+}
+
+select {
+    padding: 0.1em
+}
+
+button {
+    padding: 0.2em
+}
+
+.section {
+    margin: 0 auto;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#wage-entry-form {
+    margin: 2em auto;
+}
+
+#wage-entry-form label {
+    font-size: 1.4em;
+}
+
+#input-wage-amount {
+    width: 5em;
+}
+
+#wage-counter {
+    margin-top: 1em;
+    font-size: 3.2em;
+}
